@@ -31,13 +31,10 @@
     }
   },
   "include": [
-    ".eslintrc.cjs",
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    "**/*.cjs",
-    "**/*.js",
+    "app/**/*.{ts,tsx,js,jsx}",
+    "components/**/*.{ts,tsx,js,jsx}",
+    "lib/**/*.{ts,tsx,js,jsx}",
     ".next/types/**/*.ts"
   ],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", ".next"]
 }
