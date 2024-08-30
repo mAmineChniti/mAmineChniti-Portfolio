@@ -1,0 +1,13 @@
+/* carousel */
+
+.carouselWrapper {
+  @apply absolute inset-x-1/2 top-1/2 min-w-fit -translate-x-1/2 -translate-y-1/2 transform;
+}
+
+.carouselContent {
+  @apply w-96;
+}
+
+.carouselItem {
+  @apply flex flex-col items-center justify-center;
+}

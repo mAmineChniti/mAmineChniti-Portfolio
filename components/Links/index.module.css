@@ -1,0 +1,13 @@
+/* links */
+
+.links {
+  @apply grid grid-cols-1 gap-4;
+}
+
+.link {
+  @apply flex items-center justify-center rounded-md border-0 p-2 transition-colors;
+}
+
+.link:hover {
+  @apply bg-neutral-900 bg-opacity-75;
+}

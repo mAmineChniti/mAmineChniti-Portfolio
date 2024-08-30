@@ -1,0 +1,9 @@
+/* sidebar */
+
+.sidebar {
+  @apply absolute -left-5 bottom-12 flex rotate-90 transform select-none items-center gap-2 rounded-md;
+}
+
+.sidebarText {
+  @apply flex items-center font-medium text-neutral-200;
+}
