@@ -7,3 +7,7 @@
 .sidebarText {
   @apply flex items-center font-medium text-neutral-200;
 }
+
+.sidebarCheckbox {
+  @apply rounded-none border-white data-[state=checked]:bg-transparent;
+}
