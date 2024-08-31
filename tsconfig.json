@@ -30,11 +30,6 @@
       "@components/*": ["./components/*"]
     }
   },
-  "include": [
-    "app/**/*.{ts,tsx,js,jsx}",
-    "components/**/*.{ts,tsx,js,jsx}",
-    "lib/**/*.{ts,tsx,js,jsx}",
-    ".next/types/**/*.ts"
-  ],
+  "include": ["app/**/*", "components/**/*", "lib/**/*", ".next/types/**/*"],
   "exclude": ["node_modules", ".next"]
 }
