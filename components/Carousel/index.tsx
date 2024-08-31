@@ -22,13 +22,13 @@ export default function Carousel() {
       ]}
       className={styles.carouselWrapper}
     >
-      <CarouselPrevious />
+      <CarouselPrevious className={styles.carouselButton} />
       <CarouselContent className={styles.carouselContent}>
         <CarouselItem className={styles.carouselItem}> Item 1 </CarouselItem>
         <CarouselItem className={styles.carouselItem}> Item 2 </CarouselItem>
         <CarouselItem className={styles.carouselItem}> Item 3 </CarouselItem>
       </CarouselContent>
-      <CarouselNext />
+      <CarouselNext className={styles.carouselButton} />
     </ShadCarousel>
   );
 }

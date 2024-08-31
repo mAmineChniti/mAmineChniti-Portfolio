@@ -11,3 +11,7 @@
 .carouselItem {
   @apply flex flex-col items-center justify-center;
 }
+
+.carouselButton {
+  @apply text-neutral-900/90 opacity-85 disabled:text-transparent;
+}
