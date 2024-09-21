@@ -1,0 +1,14 @@
+[
+  {
+    "projectUrl": "https://example.com/project1",
+    "image": "Markdown Preview.png",
+    "title": "Project One",
+    "description": "This is the first project, which focuses on building a responsive web application using modern technologies."
+  },
+  {
+    "projectUrl": "https://example.com/project2",
+    "image": "https://picsum.photos/800/600?random=2",
+    "title": "Project Two",
+    "description": "This is the second project, a mobile app designed to enhance user experience through intuitive design and performance."
+  }
+]
