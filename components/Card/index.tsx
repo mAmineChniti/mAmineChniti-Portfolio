@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import styles from "./index.module.css";
 
 type CardProps = {
@@ -17,7 +18,7 @@ export default function Card({
   return (
     <div className={styles.projectCard}>
       <Link className={styles.linkWrapper} href={projectUrl} target="_blank">
-        <img className={styles.projectImage} src={img} alt="Project" />
+        <Image className={styles.projectImage} src={img} alt="Project" />
         <h3 className={styles.projectTitle}>{title}</h3>
         <p className={styles.projectDescription}>{description}</p>
       </Link>
