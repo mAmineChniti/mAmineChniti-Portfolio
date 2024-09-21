@@ -12,7 +12,7 @@ import Autoplay from "embla-carousel-autoplay";
 
 import styles from "./index.module.css";
 import Card from "@components/Card";
-import projects from "@/projects.json"; // Import the JSON file
+import projects from "@/projects.json";
 
 export default function Carousel() {
   return (
