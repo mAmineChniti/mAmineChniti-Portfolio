@@ -4,4 +4,4 @@ updates:
     directory: "/"
     target-branch: "package-updates"
     schedule:
-      interval: "weekly"
+      interval: "daily"
