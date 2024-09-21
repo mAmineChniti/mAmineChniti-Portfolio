@@ -1,0 +1,19 @@
+.projectCard {
+  @apply max-h-96 w-11/12 min-w-80;
+}
+
+.linkWrapper {
+  @apply flex flex-col justify-between;
+}
+
+.projectImage {
+  @apply h-64 w-full rounded-lg object-fill;
+}
+
+.projectTitle {
+  @apply mt-1 text-lg font-semibold text-neutral-100;
+}
+
+.projectDescription {
+  @apply mt-1 text-sm text-neutral-50;
+}
