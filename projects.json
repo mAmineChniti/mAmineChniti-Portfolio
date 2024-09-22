@@ -7,8 +7,14 @@
   },
   {
     "projectUrl": "https://example.com/project2",
-    "image": "https://picsum.photos/800/600?random=2",
+    "image": "Random Quote Generator.png",
     "title": "Project Two",
     "description": "This is the second project, a mobile app designed to enhance user experience through intuitive design and performance."
+  },
+  {
+    "projectUrl": "https://example.com/project3",
+    "image": "Frontend Task.png",
+    "title": "Project Three",
+    "description": "This is the third project, a web application that provides real-time weather updates and forecasts for users."
   }
 ]

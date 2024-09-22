@@ -9,8 +9,6 @@ import {
 } from "@/components/ui/carousel";
 
 import Autoplay from "embla-carousel-autoplay";
-
-import styles from "./index.module.css";
 import Card from "@components/Card";
 import projects from "@/projects.json";
 
@@ -22,12 +20,15 @@ export default function Carousel() {
           delay: 5000,
         }),
       ]}
-      className={styles.carouselWrapper}
+      className="absolute left-1/2 top-1/2 mt-6 flex h-auto max-h-full w-full max-w-2xl -translate-x-1/2 -translate-y-1/2 transform items-center justify-center"
     >
-      <CarouselPrevious className={styles.carouselButton} />
-      <CarouselContent className={styles.carouselContent}>
+      <CarouselPrevious className="text-neutral-900/90 opacity-85 disabled:text-transparent" />
+      <CarouselContent className="min-w-8 max-w-2xl">
         {projects.map((project, index) => (
-          <CarouselItem key={index} className={styles.carouselItem}>
+          <CarouselItem
+            key={index}
+            className="flex flex-col items-center justify-center"
+          >
             <Card
               projectUrl={project.projectUrl}
               img={project.image}
@@ -37,7 +38,7 @@ export default function Carousel() {
           </CarouselItem>
         ))}
       </CarouselContent>
-      <CarouselNext className={styles.carouselButton} />
+      <CarouselNext className="text-neutral-900/90 opacity-85 disabled:text-transparent" />
     </ShadCarousel>
   );
 }
