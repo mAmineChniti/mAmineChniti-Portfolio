@@ -1,6 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
-import styles from "./index.module.css";
 
 type CardProps = {
   projectUrl: string;
@@ -16,11 +14,20 @@ export default function Card({
   title,
 }: CardProps) {
   return (
-    <div className={styles.projectCard}>
-      <Link className={styles.linkWrapper} href={projectUrl} target="_blank">
-        <Image className={styles.projectImage} src={img} alt="Project" />
-        <h3 className={styles.projectTitle}>{title}</h3>
-        <p className={styles.projectDescription}>{description}</p>
+    <div className="max-h-96 w-11/12 min-w-80">
+      <Link
+        href={projectUrl}
+        target="_blank"
+        className="flex flex-col justify-between"
+      >
+        <img
+          className="h-72 w-full rounded-lg object-fill"
+          src={img}
+          alt="Project"
+          loading="lazy"
+        />
+        <h3 className="mt-1 text-lg font-semibold text-neutral-100">{title}</h3>
+        <p className="mt-1 text-sm text-neutral-50">{description}</p>
       </Link>
     </div>
   );
