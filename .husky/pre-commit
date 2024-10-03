@@ -1,5 +1,5 @@
 # lint and format staged files
-bunx lint-staged
+bunx --bun lint-staged
 
 # verify typescript staged files
 bunx tsc --build .
